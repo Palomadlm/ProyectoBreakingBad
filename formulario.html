@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"">
+    <link rel="shortcut icon" href="IMG/icon.png" type="image/x-icon">
+    <title>Formulario Breaking Bad - Que comience el juego!</title>
+</head>
+<body class="fondoconfoto">
+    <form class="formulario" name="Breaking Bad - Que comience el juego!" action="mailto:raul.rodriguez@proeducaglobal.com " method="post">
+        <fieldset>
+            <legend class="nombreformulario">Breaking Bad - Que comience el juego!</legend>
+        <fieldset>
+            <legend class="epígrafe">Información personal</legend>
+<br>
+<fieldset>
+    <legend class="epígrafe">Nombre Completo</legend>
+<!-- Campo de Nombre -->
+Nombre: <input type="text" name="nombre" placeholder="Introduce tu nombre" required>
+<br>
+<!-- Campo de Apellidos -->
+Apellidos: <input type="text" name="apellidos" placeholder="Introduce tus dos apellidos" required>
+</fieldset>
+<br>
+<fieldset>
+    <legend class="epígrafe">Dirección Postal</legend>
+<!-- Campos de Dirección Postal (Calle, Número, Piso,Código Postal, Ciudad) --> 
+Calle: <input type="text" name="calle" placeholder="xxxxx">   Número: <input type="text" name="numero calle" placeholder="0">   Piso:<input type="text" name="piso" placeholder="0x">
+<br>
+Código postal: <input type="text" name="código postal" placeholder="00000">   Ciudad: <input type="text" name="ciudad" placeholder="xxxxx">
+</fieldset>
+<br>
+<fieldset>
+<!-- Campo de DNI -->
+<legend class="epígrafe">Documento de Identificación</legend>
+DNI: <input type="text" name="dni" placeholder="00000000X">
+</fieldset>
+<br>
+<fieldset>
+    <legend class="epígrafe">Contacto</legend>
+<!-- Campo de Correo electrónico -->
+Correo Electrónico: <input type="text" name="correo electrónico" placeholder="xxxxxx@xxx.xxx" required>
+</fieldset>
+<br>
+<fieldset>
+    <legend class="epígrafe">Sexo</legend>
+<!-- Campo de Sexo con casilla de opción única -->
+      <input type="radio" name="sexo" value="H"> Hombre
+      <input type="radio" name="sexo" value="M"> Mujer  
+</fieldset>       
+<br>
+<fieldset>
+    <legen class="epígrafe">Fecha de nacimiento</legen>
+<!-- Campo de Fecha de nacimiento -->
+<input name="fecha de nacimiento" type="date">
+</fieldset>    
+</fieldset>      
+<br> 
+<!-- Campo lista de personajes -->
+Personaje: <select name="personajes">
+<!-- Opciones de la lista -->  
+<option value="1">Jessie Pinkman</option>    
+<option value="2">Walter White</option>  
+<option value="3">Saul Goodman</option>  
+<option value="4"> Gustavo Fring</option>   
+<option value="5">Pollos Hermanos</option>  
+<option value="6">Otros personajes</option>  
+</select>
+<!-- Caja de comentarios -->
+<br> Comentarios: 
+<br><textarea name="comentarios"  placeholder="Deja tu comentario" cols="30" rows="10"></textarea>
+<br>
+<input type="submit" value="Enviar formulario">
+<input type="reset" value="Borrar formulario">
+<input type="file"value="Adjuntar archivo">
+</fieldset>
+</form>
+</body>
+</html>
